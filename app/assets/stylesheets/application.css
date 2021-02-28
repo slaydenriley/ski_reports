@@ -1,0 +1,32 @@
+.card {
+  padding: 12px;
+  border-radius: 15px;
+  width: 25%;
+  text-align: center;
+  filter: drop-shadow(0 0 0.5rem lightgrey);
+  border: 1px solid black;
+  background: azure;
+  float: left;
+  margin: 0px 20px;
+  height: 300px;
+}
+
+body {
+  text-align: center;
+  width: 80%;
+  margin: 0 auto;
+  background: whitesmoke;
+}
+
+input[type="submit"] {
+  background: black;
+  color: white;
+  border: none;
+  width: 25%;
+  padding: 15px;
+  font-size: 24px;
+}
+
+hr {
+  border: 1px solid black;
+}

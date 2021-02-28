@@ -1,0 +1,17 @@
+<h1>Ski Reports for Montana</h1>
+<hr/>
+<%= button_to 'Update', '/update', method: :patch  %>
+<hr/>
+<% @reports.each do |report| %>
+<div class="card">
+  <div>
+    <h1><%= report.name %></h1>
+    <hr/>
+    <h2><%= report.date %></h2>
+    <% if !!report.top %>
+      <h2>TOP: <%= report.top %></h2>
+    <% end %>
+    <h2>BASE: <%= report.base %></h2>
+  </div>
+</div>
+<% end %>
